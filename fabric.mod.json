@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "mosclient",
+  "version": "${version}",
+  "name": "Mos Client",
+  "description": "A customizable dark PvP utility menu for Minecraft.",
+  "authors": ["MoxMc"],
+  "environment": "client",
+  "entrypoints": { "client": ["com.moxmc.mosclient.MosClient"] },
+  "depends": {
+    "fabricloader": ">=0.16.9",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
